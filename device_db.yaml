@@ -1469,6 +1469,35 @@ MODULE_HOBEIAN_TS0001_2:
   - https://github.com/romasku/tuya-zigbee-switch/issues/189
   - https://github.com/romasku/tuya-zigbee-switch/issues/289
   store: null
+MODULE_HOBEIAN_TS0001_3:
+  human_name: HOBEIAN ZG-301Z 16A
+  category: module
+  power: mains
+  neutral: required
+  output: relay
+  device_type: router
+  stock_model_name: ZG-301Z-16A
+  stock_manufacturer_name: null
+  stock_converter_manufacturer: Tuya
+  stock_converter_model: WHD02
+  override_z2m_device: ZG-301Z
+  tuya_module: none
+  mcu_family: Telink
+  mcu: TLSR8253F512AT32
+  config_str: ZG-301Z-16A;TS0001-HOB;BB6u;LC3i;SB6u;RC1;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: null
+  stock_image_type: null
+  firmware_image_type: 45579
+  build: yes
+  status: fully_supported
+  info: Supported
+  threads: null
+  store: 
+  - https://www.aliexpress.com/item/1005012335723022.html
+  - https://www.aliexpress.com/item/1005012053799804.html
 MODULE_HOMMYN_TS0002:
   human_name: Hommyn RLZBN02
   category: module
